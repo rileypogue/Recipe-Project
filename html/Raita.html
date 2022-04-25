@@ -5,17 +5,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>recipe-raita</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="../css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
+<div class="grid">
+  <div class="head">
   <h1>Basic Raita Recipe</h1>
-  <p>Recipe adapted from Swasthi's Recipes, found at
+  </div>
+  
+  <p id="credits">Recipe adapted from Swasthi's Recipes, found at
     https://www.indianhealthyrecipes.com/raita-recipes-biryani-pulao-kababs/#Basic_Raita</p>
   <figure>
-    <img src="../image/raita-image.jpg" alt="raita in a bowl" style="width:60%;height:60%;">
+    <img src="../image/raita-image.jpg" alt="raita in a bowl" width="700" height="450">
     <figcaption>Image from https://pxhere.com/en/photo/1614532</figcaption>
   </figure>
+  
+  <div class="lista">
   <h2>Ingredients:</h2>
   <ul>
     <li>1 cup curd</li>
@@ -26,6 +32,9 @@
     <li>1 tablespoon coriander leaves</li>
     <li>1/2 teaspoon cumin powder</li>
   </ul>
+  </div>
+
+  <div class="conversion">
   <form>
     <label for="conversion1">Conversion </label><br>
     <input type="number" id="conversion1" name="conversion1">
@@ -33,6 +42,10 @@
     <input type="number" id="conversion2" name="conversion2">
 
   </form>
+  </div>
+  
+  <hr>
+  <div class="listb">
   <h2>Instructions:</h2>
   <h3>Preperation:</h3>
   <ol>
@@ -42,6 +55,8 @@
     <li>Rinse the coriander leaves. drain and chop them finely</li>
     <li>Optional: roast 1 tsp cumin seeds, crush and place in jar</li>
   </ol>
+  </div>
+  <div class ="listc">
   <h3>How to make:</h3>
   <ol>
     <li>Add curd and salt to mixing bowl, whisk until smooth.</li>
@@ -49,6 +64,8 @@
     <li>Stir gently. Taste test and add more salt if needed.</li>
     <li>Garnish with cumin powder. Serve with biryani, pulao, kebabs, or paratha.</li>
   </ol>
+  </div>
+  <div class ="rating">
   <h3>Rate This Recipe:</h3>
   <form>
     <fieldset>
@@ -61,13 +78,15 @@
       <label for="hard_skill">Hard</label>
     </fieldset>
   </form>
-    <hr>
+  </div>
+</div>  
+  <hr>
   <footer>
-    <span style="float:left"><a href="../index.html">Back To Main Page</a></span>
-    <span style="float:right"><p>This page was created as academic activity only.</p></span>
+    <span style=float:left><a href="../index.html">Back To Main Page</a></span>
+    <span style=float:right><p>This page was created as academic activity only.</p></span>
   </footer>
-
   <script src="script.js"></script>
+
 </body>
 
 </html>
